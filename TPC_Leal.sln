@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPC_Leal", "TPC_Leal\TPC_Leal.csproj", "{97E5889C-9212-4D39-93F9-B757E38DB42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{45636561-2214-4D5B-9BE8-341A73B5AE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{D917565C-BADB-4463-8A50-D94EF710EC21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E5889C-9212-4D39-93F9-B757E38DB42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E5889C-9212-4D39-93F9-B757E38DB42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E5889C-9212-4D39-93F9-B757E38DB42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E5889C-9212-4D39-93F9-B757E38DB42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45636561-2214-4D5B-9BE8-341A73B5AE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45636561-2214-4D5B-9BE8-341A73B5AE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45636561-2214-4D5B-9BE8-341A73B5AE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45636561-2214-4D5B-9BE8-341A73B5AE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D917565C-BADB-4463-8A50-D94EF710EC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D917565C-BADB-4463-8A50-D94EF710EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D917565C-BADB-4463-8A50-D94EF710EC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D917565C-BADB-4463-8A50-D94EF710EC21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29B1B1F-3C89-4DC6-B492-0189700CAD56}
+	EndGlobalSection
+EndGlobal
