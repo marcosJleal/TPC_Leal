@@ -8,8 +8,10 @@ namespace Dominio
 {
    public class Pedido
     {
-        public int IdCarro { get; set; }
-        public bool Estado { get; set; }
-        public string Fecha { get; set; }
+        public Int64 ID { get; set; }
+        public Carro Carro { get; set; }
+        public Usuario Usuario { get; set; }
+        public Estado Estado { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }

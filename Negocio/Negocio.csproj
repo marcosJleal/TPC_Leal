@@ -41,9 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.cs" />
     <Compile Include="ArticuloNegocio.cs" />
+    <Compile Include="CategoriaNegocio.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="ColorNegocio.cs" />
+    <Compile Include="DetalleNegocio.cs" />
+    <Compile Include="EstadoNegocio.cs" />
+    <Compile Include="PedidoNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj">

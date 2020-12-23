@@ -8,9 +8,8 @@ namespace Dominio
 {
     public class Carro
     {
-        public int IdCarro { get; set; }
-        public int IdUsuario { get; set; }
-        public ItemCarro ItemCarro { get; set; }
+        public int Id { get; set; } 
+        public List<ItemCarro> listaItems  { get; set; }
         public decimal Subtotal { get; set; }
     }
 }

@@ -67,11 +67,119 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABMArticulos.aspx" />
+    <Content Include="ABMPedidos.aspx" />
+    <Content Include="Carrito.aspx" />
+    <Content Include="ConfirmacionMail.aspx" />
+    <Content Include="DetallePedido.aspx" />
+    <Content Include="ErrorLogin.aspx" />
+    <Content Include="ErrorSinPedidos.aspx" />
+    <Content Include="Imagenes\banner_Mesa de trabajo 1.jpg" />
+    <Content Include="Imagenes\logo.png" />
+    <Content Include="Imagenes\logo2.png" />
+    <Content Include="Imagenes\no-avatar-final.png" />
+    <Content Include="Imagenes\user-icon-human-person-symbol-avatar-login-sign-vector-illustration-isolated-modern-background-user-icon-human-person-symbol-118096858.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="MiCuenta.aspx" />
+    <Content Include="MisPedidos.aspx" />
+    <Content Include="OlvideContraseña.aspx" />
+    <Content Include="PedidoRealizado.aspx" />
     <Content Include="Productos.aspx" />
+    <Content Include="PruebaEliminarUsuario.aspx" />
+    <Content Include="ModificarUsuario.aspx" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
+    <Content Include="AltaArticulo.aspx" />
+    <Content Include="DetalleArticulo.aspx" />
+    <Content Include="ModificarArticulo.aspx" />
+    <Content Include="AltaUsuario.aspx" />
+    <Content Include="ABMUsuarios.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABMArticulos.aspx.cs">
+      <DependentUpon>ABMArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMArticulos.aspx.designer.cs">
+      <DependentUpon>ABMArticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ABMPedidos.aspx.cs">
+      <DependentUpon>ABMPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMPedidos.aspx.designer.cs">
+      <DependentUpon>ABMPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carrito.aspx.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrito.aspx.designer.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmacionMail.aspx.cs">
+      <DependentUpon>ConfirmacionMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmacionMail.aspx.designer.cs">
+      <DependentUpon>ConfirmacionMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetallePedido.aspx.cs">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetallePedido.aspx.designer.cs">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorLogin.aspx.cs">
+      <DependentUpon>ErrorLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorLogin.aspx.designer.cs">
+      <DependentUpon>ErrorLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorSinPedidos.aspx.cs">
+      <DependentUpon>ErrorSinPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorSinPedidos.aspx.designer.cs">
+      <DependentUpon>ErrorSinPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MiCuenta.aspx.cs">
+      <DependentUpon>MiCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiCuenta.aspx.designer.cs">
+      <DependentUpon>MiCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MisPedidos.aspx.cs">
+      <DependentUpon>MisPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisPedidos.aspx.designer.cs">
+      <DependentUpon>MisPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OlvideContraseña.aspx.cs">
+      <DependentUpon>OlvideContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvideContraseña.aspx.designer.cs">
+      <DependentUpon>OlvideContraseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoRealizado.aspx.cs">
+      <DependentUpon>PedidoRealizado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PedidoRealizado.aspx.designer.cs">
+      <DependentUpon>PedidoRealizado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Productos.aspx.cs">
       <DependentUpon>Productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -80,6 +188,20 @@
       <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaEliminarUsuario.aspx.cs">
+      <DependentUpon>PruebaEliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaEliminarUsuario.aspx.designer.cs">
+      <DependentUpon>PruebaEliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarUsuario.aspx.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarUsuario.aspx.designer.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,6 +215,41 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaArticulo.aspx.cs">
+      <DependentUpon>AltaArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AltaArticulo.aspx.designer.cs">
+      <DependentUpon>AltaArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleArticulo.aspx.cs">
+      <DependentUpon>DetalleArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalleArticulo.aspx.designer.cs">
+      <DependentUpon>DetalleArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarArticulo.aspx.cs">
+      <DependentUpon>ModificarArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarArticulo.aspx.designer.cs">
+      <DependentUpon>ModificarArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaUsuario.aspx.cs">
+      <DependentUpon>AltaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AltaUsuario.aspx.designer.cs">
+      <DependentUpon>AltaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ABMUsuarios.aspx.cs">
+      <DependentUpon>ABMUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMUsuarios.aspx.designer.cs">
+      <DependentUpon>ABMUsuarios.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +272,7 @@
       <Name>Negocio</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
